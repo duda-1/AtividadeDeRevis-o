@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using AtividadeDeRevisão;
+
+Automovel a = new Automovel();
+
+GerenciadorGeral ger = new GerenciadorGeral();
+ger.ListarAutomovel();
+
+Funcionario f = new Funcionario("matricula", "Veiculo");
+f.verificarVeiculo(a);
