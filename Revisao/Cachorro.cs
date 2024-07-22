@@ -25,6 +25,9 @@ namespace Revisao
         {
             Console.WriteLine($"-------------------- Apresentando Cachorro --------------------" +
                               $"\nRaça: {raca}" +
+                              $"\nNome: {VerNome}" +
+                              $"\nIade: {VerIdade}" +
+                              $"\nPeso: {VerPeso} " +
                               $"\n-----------------------------------------------------------");
         }
     }

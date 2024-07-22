@@ -29,7 +29,7 @@ namespace AtividadeDeRevisão
         public Boolean verificarVeiculo(Automovel automovel)
         {
 
-                Console.WriteLine($"Deseja verificar se todas as placas tem 7 caracteres ??" +
+            Console.WriteLine($"Deseja verificar se todas as placas tem 7 caracteres ??");
 
 
                 if (placaVeiculo.Length == 7)

@@ -8,7 +8,7 @@ namespace Revisao
 {
     public class Animal
     {
-        private string Nome { get; set; }   
+        private string Nome { get; set; }
         private int Idade { get; set; } 
         private double Peso { get; set; }
         private double Altura { get; set; }
