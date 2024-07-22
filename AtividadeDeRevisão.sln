@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtividadeDeRevisão", "AtividadeDeRevisão\AtividadeDeRevisão.csproj", "{E02E7420-791A-4DCE-A81B-6FE346E40AC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Revisao", "Revisao\Revisao.csproj", "{15780E02-6E94-48DB-80B7-6CEC49261A94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Revisao", "Revisao\Revisao.csproj", "{15780E02-6E94-48DB-80B7-6CEC49261A94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Revisao2", "attRevisao1\Revisao2.csproj", "{8C5485EA-084B-4A34-828B-21F821B1B64D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{15780E02-6E94-48DB-80B7-6CEC49261A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15780E02-6E94-48DB-80B7-6CEC49261A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15780E02-6E94-48DB-80B7-6CEC49261A94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C5485EA-084B-4A34-828B-21F821B1B64D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C5485EA-084B-4A34-828B-21F821B1B64D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C5485EA-084B-4A34-828B-21F821B1B64D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C5485EA-084B-4A34-828B-21F821B1B64D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
