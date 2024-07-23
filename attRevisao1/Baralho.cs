@@ -15,5 +15,10 @@ namespace Revisao2
         {
             catas= new List<Carta>();
         }
+
+        public void QuantidadeCartas()
+        {
+            // No Baralho possue 52 cartas 
+        }
     }
 }
