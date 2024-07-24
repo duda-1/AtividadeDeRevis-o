@@ -13,6 +13,7 @@ namespace Revisao2
         List<Carta> cartas { get; set; } 
         List<Jogador> jogador { get; set; } 
 
+
         public Gerenciador()
         {
             cartas = new List<Carta>();
@@ -23,13 +24,13 @@ namespace Revisao2
         public void InicializarSistema()
         {
             //Carta
-            cartas.Add(new Carta("A de Copas",1));
-            cartas.Add(new Carta("Copas", 4));
-            cartas.Add(new Carta("A Espadas", 1));
-            cartas.Add(new Carta("Espadas", 5));
-            cartas.Add(new Carta("Espadas", 4));
-            cartas.Add(new Carta("Copas", 6));
-            cartas.Add(new Carta("Copas", 9));
+            cartas.Add(new Carta("Copas","1"));
+            cartas.Add(new Carta("Copas", "4"));
+            cartas.Add(new Carta(" Espadas", "1"));
+            cartas.Add(new Carta("Espadas", "5"));
+            cartas.Add(new Carta("Espadas", "4"));
+            cartas.Add(new Carta("Copas", "6"));
+            cartas.Add(new Carta("Copas", "11"));
 
             //Jogador
             jogador.Add(new Jogador(1, "Eduarda"));
@@ -38,33 +39,39 @@ namespace Revisao2
             jogador.Add(new Jogador(4, "Marisa"));
         }
 
+        //Caso entrar mais um jogador
         public void AdicionarJogador(Jogador j)
         {
             int novoId = jogador.Max(selector: j => j.PegarId() + 1);
             j.AlterarId(novoId);
             jogador.Add(j);
         }
+
+        //Listar os Jogadores da partida
         public void ListarJogadores()
         {
             foreach (Jogador j in jogador)
             {
-                //j.ExibirDetalherJo();
+                j.ExibirDetalhedoJogador();
             }
         }
-
+        
+        //Adicionar Cartas
         public void AdicionarCarta(Carta carta)
         {
             cartas.Add(carta);
         }
 
+        //ListarCarta
         public void ListarCartas()
         {
             foreach(Carta carta in cartas)
             {
-                carta.ExibirDetalherCarta();
+                carta.ExibirDetalhesDaCarta();
             }
         }
 
+        // Ver Pares Validos
         public void ValidarPares()
         {
             foreach(Carta cartas in cartas)

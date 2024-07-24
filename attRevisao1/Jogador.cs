@@ -26,5 +26,12 @@ namespace Revisao2
         {
             id = Id;
         }
+        
+        public void ExibirDetalhedoJogador()
+        {
+            Console.WriteLine($"-------------- Jogador {Id} --------------" +
+                              $"\nNome do Jogador: {NomeJogaror}" +
+                              $"\n-----------------------------------------");
+        }
     }
 }

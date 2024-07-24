@@ -9,16 +9,27 @@ namespace Revisao2
 {
     public class Baralho
     {
-        List<Carta> catas { get; set; }
+        List<Carta> cartas { get; set; }
+        public int numeroDeCartas { get; set; } 
 
-        public Baralho()
+        public Baralho(int numeroDeCartas)
         {
-            catas= new List<Carta>();
+            cartas = new List<Carta>();
+            this.numeroDeCartas = numeroDeCartas;
+            CriarBaralho();
         }
 
-        public void QuantidadeCartas()
+        //Criando um baralho 
+        public void CriarBaralho()
         {
-            // No Baralho possue 52 cartas 
-        }
+            string[] NipesDisponiveis = { "espadas", "Paus", "Ouros", "Copas" };
+            foreach (string Naipe in NipesDisponiveis)
+            {
+                for (int i = 1; i <= 13; i++)
+                {
+                    cartas.Add(new Carta(Naipe, i.ToString()));
+                }
+            }
+        }//fim
     }
 }
