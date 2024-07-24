@@ -23,14 +23,66 @@ namespace Revisao2
 
         public void InicializarSistema()
         {
-            //Carta
-            cartas.Add(new Carta("Copas","1"));
-            cartas.Add(new Carta("Copas", "4"));
+            //Carta Espados
             cartas.Add(new Carta(" Espadas", "1"));
-            cartas.Add(new Carta("Espadas", "5"));
-            cartas.Add(new Carta("Espadas", "4"));
+            cartas.Add(new Carta(" Espadas", "2"));
+            cartas.Add(new Carta(" Espadas", "3"));
+            cartas.Add(new Carta(" Espadas", "4"));
+            cartas.Add(new Carta(" Espadas", "5"));
+            cartas.Add(new Carta(" Espadas", "6"));
+            cartas.Add(new Carta(" Espadas", "7"));
+            cartas.Add(new Carta(" Espadas", "8"));
+            cartas.Add(new Carta(" Espadas", "9"));
+            cartas.Add(new Carta(" Espadas", "10"));
+            cartas.Add(new Carta(" Espadas", "11"));
+            cartas.Add(new Carta(" Espadas", "12"));
+            cartas.Add(new Carta(" Espadas", "13"));
+
+            // Paus
+            cartas.Add(new Carta(" Paus", "1"));
+            cartas.Add(new Carta(" Paus", "2"));
+            cartas.Add(new Carta(" Paus", "3"));
+            cartas.Add(new Carta(" Paus", "4"));
+            cartas.Add(new Carta(" Paus", "5"));
+            cartas.Add(new Carta(" Paus", "6"));
+            cartas.Add(new Carta(" Paus", "7"));
+            cartas.Add(new Carta(" Paus", "8"));
+            cartas.Add(new Carta(" Paus", "9"));
+            cartas.Add(new Carta(" Paus", "10"));
+            cartas.Add(new Carta(" Paus", "11"));
+            cartas.Add(new Carta(" Paus", "12"));
+            cartas.Add(new Carta(" Paus", "13"));
+
+            //Ouro
+            cartas.Add(new Carta(" Ouros", "1"));
+            cartas.Add(new Carta(" Ouros", "2"));
+            cartas.Add(new Carta(" Ouros", "3"));
+            cartas.Add(new Carta(" Ouros", "4"));
+            cartas.Add(new Carta(" Ouros", "5"));
+            cartas.Add(new Carta(" Ouros", "6"));
+            cartas.Add(new Carta(" Ouros", "7"));
+            cartas.Add(new Carta(" Ouros", "8"));
+            cartas.Add(new Carta(" Ouros", "9"));
+            cartas.Add(new Carta(" Ouros", "10"));
+            cartas.Add(new Carta(" Ouros", "11"));
+            cartas.Add(new Carta(" Ouros", "12"));
+            cartas.Add(new Carta(" Ouros", "13"));
+
+            //Copa
+            cartas.Add(new Carta("Copas","1"));
+            cartas.Add(new Carta("Copas", "2"));
+            cartas.Add(new Carta("Copas", "3"));
+            cartas.Add(new Carta("Copas", "4"));
+            cartas.Add(new Carta("Copas", "5"));
             cartas.Add(new Carta("Copas", "6"));
-            cartas.Add(new Carta("Copas", "11"));
+            cartas.Add(new Carta("Copas", "7"));
+            cartas.Add(new Carta("Copas", "8"));
+            cartas.Add(new Carta("Copas", "9"));
+            cartas.Add(new Carta("Copas", "10"));
+            cartas.Add(new Carta("Copas", "11")); 
+            cartas.Add(new Carta("Copas", "12"));
+            cartas.Add(new Carta("Copas", "13"));
+
 
             //Jogador
             jogador.Add(new Jogador(1, "Eduarda"));

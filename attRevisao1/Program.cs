@@ -8,3 +8,4 @@ c1.ExibirDetalhesDaCarta();
 
 Gerenciador g = new Gerenciador();
 g.ListarCartas();
+g.ListarJogadores();
