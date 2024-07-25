@@ -12,10 +12,9 @@ namespace Revisao2
         List<Carta> cartas { get; set; }
         public int numeroDeCartas { get; set; } 
 
-        public Baralho(int numeroDeCartas)
+        public Baralho()
         {
             cartas = new List<Carta>();
-            this.numeroDeCartas = numeroDeCartas;
             CriarBaralho();
         }
 
@@ -31,5 +30,11 @@ namespace Revisao2
                 }
             }
         }//fim
+
+        public void Embaralhar()
+        {
+            cartas = cartas.OrderBy(x => Guid.NewGuid()).ToList();
+        }
+
     }
 }

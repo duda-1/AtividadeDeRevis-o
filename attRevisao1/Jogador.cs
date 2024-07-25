@@ -8,23 +8,24 @@ namespace Revisao2
 {
     public class Jogador
     {
-        private int Id { get; set; }
+        public int Id { get; set; }
         public string NomeJogaror { get; set; }
 
-        public Jogador(int id, string nomeJogaror)
+        public Jogador()
         {
-            this.Id = id;
-            NomeJogaror = nomeJogaror;
+
         }
 
-        public int PegarId()
-        {
-            return Id;
-        }
 
-        public void AlterarId(int id)
+
+        //CadasTrar Jogador
+        public Jogador CadastrarJogador(int id)
         {
             id = Id;
+            Console.WriteLine("Digite o Nome");
+            NomeJogaror = Console.ReadLine();
+            return this;
+
         }
         
         public void ExibirDetalhedoJogador()
